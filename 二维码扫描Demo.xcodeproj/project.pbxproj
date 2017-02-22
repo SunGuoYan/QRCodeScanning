@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16FE77B1E4D5FAD0086C791 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FE77A1E4D5FAD0086C791 /* main.m */; };
+		F16FE77E1E4D5FAD0086C791 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FE77D1E4D5FAD0086C791 /* AppDelegate.m */; };
+		F16FE7811E4D5FAD0086C791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FE7801E4D5FAD0086C791 /* ViewController.m */; };
+		F16FE7841E4D5FAD0086C791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FE7821E4D5FAD0086C791 /* Main.storyboard */; };
+		F16FE7861E4D5FAD0086C791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16FE7851E4D5FAD0086C791 /* Assets.xcassets */; };
+		F16FE7891E4D5FAD0086C791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FE7871E4D5FAD0086C791 /* LaunchScreen.storyboard */; };
+		F16FE7941E4D5FAD0086C791 /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FE7931E4D5FAD0086C791 /* _____DemoUITests.m */; };
+		F16FE79F1E4D89570086C791 /* icon_saosao.png in Resources */ = {isa = PBXBuildFile; fileRef = F16FE79E1E4D89570086C791 /* icon_saosao.png */; };
+		F16FE7A31E4D89670086C791 /* scan_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F16FE7A11E4D89670086C791 /* scan_line.png */; };
+		F16FE7A51E4D89700086C791 /* sacn_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = F16FE7A41E4D89700086C791 /* sacn_frame.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16FE7901E4D5FAD0086C791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16FE76E1E4D5FAD0086C791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16FE7751E4D5FAD0086C791;
+			remoteInfo = "二维码扫描Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16FE7761E4D5FAD0086C791 /* 二维码扫描Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码扫描Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FE77A1E4D5FAD0086C791 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16FE77C1E4D5FAD0086C791 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16FE77D1E4D5FAD0086C791 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16FE77F1E4D5FAD0086C791 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F16FE7801E4D5FAD0086C791 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F16FE7831E4D5FAD0086C791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16FE7851E4D5FAD0086C791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16FE7881E4D5FAD0086C791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16FE78A1E4D5FAD0086C791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16FE78F1E4D5FAD0086C791 /* 二维码扫描DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码扫描DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FE7931E4D5FAD0086C791 /* _____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoUITests.m"; sourceTree = "<group>"; };
+		F16FE7951E4D5FAD0086C791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16FE79E1E4D89570086C791 /* icon_saosao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_saosao.png; sourceTree = "<group>"; };
+		F16FE7A11E4D89670086C791 /* scan_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_line.png; sourceTree = "<group>"; };
+		F16FE7A41E4D89700086C791 /* sacn_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sacn_frame.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16FE7731E4D5FAD0086C791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE78C1E4D5FAD0086C791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16FE76D1E4D5FAD0086C791 = {
+			isa = PBXGroup;
+			children = (
+				F16FE7781E4D5FAD0086C791 /* 二维码扫描Demo */,
+				F16FE7921E4D5FAD0086C791 /* 二维码扫描DemoUITests */,
+				F16FE7771E4D5FAD0086C791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16FE7771E4D5FAD0086C791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE7761E4D5FAD0086C791 /* 二维码扫描Demo.app */,
+				F16FE78F1E4D5FAD0086C791 /* 二维码扫描DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16FE7781E4D5FAD0086C791 /* 二维码扫描Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE7A41E4D89700086C791 /* sacn_frame.png */,
+				F16FE7A11E4D89670086C791 /* scan_line.png */,
+				F16FE79E1E4D89570086C791 /* icon_saosao.png */,
+				F16FE77C1E4D5FAD0086C791 /* AppDelegate.h */,
+				F16FE77D1E4D5FAD0086C791 /* AppDelegate.m */,
+				F16FE77F1E4D5FAD0086C791 /* ViewController.h */,
+				F16FE7801E4D5FAD0086C791 /* ViewController.m */,
+				F16FE7821E4D5FAD0086C791 /* Main.storyboard */,
+				F16FE7851E4D5FAD0086C791 /* Assets.xcassets */,
+				F16FE7871E4D5FAD0086C791 /* LaunchScreen.storyboard */,
+				F16FE78A1E4D5FAD0086C791 /* Info.plist */,
+				F16FE7791E4D5FAD0086C791 /* Supporting Files */,
+			);
+			path = "二维码扫描Demo";
+			sourceTree = "<group>";
+		};
+		F16FE7791E4D5FAD0086C791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE77A1E4D5FAD0086C791 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16FE7921E4D5FAD0086C791 /* 二维码扫描DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE7931E4D5FAD0086C791 /* _____DemoUITests.m */,
+				F16FE7951E4D5FAD0086C791 /* Info.plist */,
+			);
+			path = "二维码扫描DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16FE7751E4D5FAD0086C791 /* 二维码扫描Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FE7981E4D5FAD0086C791 /* Build configuration list for PBXNativeTarget "二维码扫描Demo" */;
+			buildPhases = (
+				F16FE7721E4D5FAD0086C791 /* Sources */,
+				F16FE7731E4D5FAD0086C791 /* Frameworks */,
+				F16FE7741E4D5FAD0086C791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码扫描Demo";
+			productName = "二维码扫描Demo";
+			productReference = F16FE7761E4D5FAD0086C791 /* 二维码扫描Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16FE78E1E4D5FAD0086C791 /* 二维码扫描DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FE79B1E4D5FAD0086C791 /* Build configuration list for PBXNativeTarget "二维码扫描DemoUITests" */;
+			buildPhases = (
+				F16FE78B1E4D5FAD0086C791 /* Sources */,
+				F16FE78C1E4D5FAD0086C791 /* Frameworks */,
+				F16FE78D1E4D5FAD0086C791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16FE7911E4D5FAD0086C791 /* PBXTargetDependency */,
+			);
+			name = "二维码扫描DemoUITests";
+			productName = "二维码扫描DemoUITests";
+			productReference = F16FE78F1E4D5FAD0086C791 /* 二维码扫描DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16FE76E1E4D5FAD0086C791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SunGuoYan;
+				TargetAttributes = {
+					F16FE7751E4D5FAD0086C791 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6Y4J8CKDG6;
+						ProvisioningStyle = Automatic;
+					};
+					F16FE78E1E4D5FAD0086C791 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F16FE7751E4D5FAD0086C791;
+					};
+				};
+			};
+			buildConfigurationList = F16FE7711E4D5FAD0086C791 /* Build configuration list for PBXProject "二维码扫描Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16FE76D1E4D5FAD0086C791;
+			productRefGroup = F16FE7771E4D5FAD0086C791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16FE7751E4D5FAD0086C791 /* 二维码扫描Demo */,
+				F16FE78E1E4D5FAD0086C791 /* 二维码扫描DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16FE7741E4D5FAD0086C791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE79F1E4D89570086C791 /* icon_saosao.png in Resources */,
+				F16FE7A51E4D89700086C791 /* sacn_frame.png in Resources */,
+				F16FE7A31E4D89670086C791 /* scan_line.png in Resources */,
+				F16FE7891E4D5FAD0086C791 /* LaunchScreen.storyboard in Resources */,
+				F16FE7861E4D5FAD0086C791 /* Assets.xcassets in Resources */,
+				F16FE7841E4D5FAD0086C791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE78D1E4D5FAD0086C791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16FE7721E4D5FAD0086C791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE7811E4D5FAD0086C791 /* ViewController.m in Sources */,
+				F16FE77E1E4D5FAD0086C791 /* AppDelegate.m in Sources */,
+				F16FE77B1E4D5FAD0086C791 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE78B1E4D5FAD0086C791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE7941E4D5FAD0086C791 /* _____DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16FE7911E4D5FAD0086C791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16FE7751E4D5FAD0086C791 /* 二维码扫描Demo */;
+			targetProxy = F16FE7901E4D5FAD0086C791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16FE7821E4D5FAD0086C791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16FE7831E4D5FAD0086C791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16FE7871E4D5FAD0086C791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16FE7881E4D5FAD0086C791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16FE7961E4D5FAD0086C791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F16FE7971E4D5FAD0086C791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16FE7991E4D5FAD0086C791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y4J8CKDG6;
+				INFOPLIST_FILE = "二维码扫描Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunGuoYan.-----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F16FE79A1E4D5FAD0086C791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y4J8CKDG6;
+				INFOPLIST_FILE = "二维码扫描Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunGuoYan.-----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F16FE79C1E4D5FAD0086C791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二维码扫描DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunGuoYan.-----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二维码扫描Demo";
+			};
+			name = Debug;
+		};
+		F16FE79D1E4D5FAD0086C791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二维码扫描DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SunGuoYan.-----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二维码扫描Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16FE7711E4D5FAD0086C791 /* Build configuration list for PBXProject "二维码扫描Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE7961E4D5FAD0086C791 /* Debug */,
+				F16FE7971E4D5FAD0086C791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16FE7981E4D5FAD0086C791 /* Build configuration list for PBXNativeTarget "二维码扫描Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE7991E4D5FAD0086C791 /* Debug */,
+				F16FE79A1E4D5FAD0086C791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F16FE79B1E4D5FAD0086C791 /* Build configuration list for PBXNativeTarget "二维码扫描DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE79C1E4D5FAD0086C791 /* Debug */,
+				F16FE79D1E4D5FAD0086C791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16FE76E1E4D5FAD0086C791 /* Project object */;
+}
